@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rihan News</string>
+    <string name="news_title">Title</string>
+    <string name="news_description">Description</string>
+    <string name="news_source">Source</string>
+    <string name="fetch">More News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_news">All News</string>
+    <string name="education_news">Education</string>
+    <string name="entertainment_news">Entertainment</string>
+    <string name="health_news">Health</string>
+    <string name="sports_news">Sports</string>
+    <string name="technology_news">Technology</string>
+</resources>
