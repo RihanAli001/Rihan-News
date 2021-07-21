@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_News_Fragment"
+        android:icon="@drawable/all_new_icon"
+        android:title="@string/all_news" />
+
+    <item
+        android:id="@+id/education_News_Fragment"
+        android:icon="@drawable/education_icon"
+        android:title="@string/education_news" />
+
+    <item
+        android:id="@+id/entertainment_News_Fragment"
+        android:icon="@drawable/entertainment_icon"
+        android:title="@string/entertainment_news" />
+
+    <item
+        android:id="@+id/health_News"
+        android:icon="@drawable/health_icon"
+        android:title="@string/health_news" />
+    <item
+        android:id="@+id/sports_News"
+        android:icon="@drawable/sports_icon"
+        android:title="@string/sports_news" />
+
+</menu>

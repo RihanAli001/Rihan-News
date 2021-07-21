@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/all_News_Fragment">
+
+    <fragment
+        android:id="@+id/health_News"
+        android:name="com.rihanhack.rihannews.Health_News"
+        android:label="fragment_health__news"
+        tools:layout="@layout/fragment_health__news" />
+    <fragment
+        android:id="@+id/sports_News"
+        android:name="com.rihanhack.rihannews.Sports_News"
+        android:label="fragment_sports__news"
+        tools:layout="@layout/fragment_sports__news" />
+    <fragment
+        android:id="@+id/all_News_Fragment"
+        android:name="com.rihanhack.rihannews.All_News_Fragment"
+        android:label="fragment_all__news_"
+        tools:layout="@layout/fragment_all__news_" />
+    <fragment
+        android:id="@+id/education_News_Fragment"
+        android:name="com.rihanhack.rihannews.Education_News_Fragment"
+        android:label="fragment_education__news_"
+        tools:layout="@layout/fragment_education__news_" />
+    <fragment
+        android:id="@+id/entertainment_News_Fragment"
+        android:name="com.rihanhack.rihannews.Entertainment_News_Fragment"
+        android:label="fragment_entertainment__news_"
+        tools:layout="@layout/fragment_entertainment__news_" />
+</navigation>

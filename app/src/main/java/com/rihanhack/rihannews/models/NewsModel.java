@@ -3,7 +3,7 @@ package com.rihanhack.rihannews.models;
 public class NewsModel {
     String title,description,source,image;
 
-    public NewsModel(String title, String description, String source,String image) {
+    public NewsModel(String title, String description, String source, String image) {
         this.title = title;
         this.description = description;
         this.source = source;

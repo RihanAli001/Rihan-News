@@ -3,15 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/activity_news_post_details.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/fragment_all_news.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/fragment_education.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/fragment_entertainment.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/fragment_health.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/fragment_sports.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/fragment_technology.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/top_headline_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2595" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2595" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2595" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/activity_news_post_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/fragment_all__news_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/fragment_education__news_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/fragment_entertainment__news_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/fragment_health__news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/fragment_sports__news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/layout/top_headline_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Parvej Ali/AndroidStudioProjects/RihanNews2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2595" />
       </map>
     </option>
   </component>
