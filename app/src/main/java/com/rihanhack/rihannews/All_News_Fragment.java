@@ -46,6 +46,23 @@ public class All_News_Fragment extends Fragment {
         recyclerView = view.findViewById(R.id.AllNews);
         manager = new LinearLayoutManager(container.getContext());
         recyclerView.setLayoutManager(manager);
+
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+        allNewsList.add(new NewsModel("Rihan News", "This app is a news app.","www.rihanhack.com",null));
+
         fetchData();
         allNewsAdapter = new NewsAdapter(allNewsList,context);
         recyclerView.setAdapter(allNewsAdapter);
