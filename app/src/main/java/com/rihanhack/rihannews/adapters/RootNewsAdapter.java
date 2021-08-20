@@ -7,20 +7,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.bumptech.glide.Glide;
 import com.rihanhack.rihannews.NewsPostDetails;
 import com.rihanhack.rihannews.R;
-import com.rihanhack.rihannews.models.NewsModel;
+import com.rihanhack.rihannews.models.Article;
 import java.util.List;
 
-public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
-    List<NewsModel> headLineList;
+public class RootNewsAdapter extends RecyclerView.Adapter<RootNewsAdapter.ViewHolder> {
+    List<Article> newsList;
     Context context;
 
-    public NewsAdapter(List<NewsModel> headLineList, Context context) {
-        this.headLineList = headLineList;
+    public RootNewsAdapter(List<Article> newsList, Context context) {
+        this.newsList = newsList;
         this.context = context;
     }
 
@@ -33,21 +35,23 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.title.setText(headLineList.get(position).getTitle());
-        holder.description.setText(headLineList.get(position).getDescription());
-        holder.source.setText(headLineList.get(position).getSource());
-        Glide.with(context).load(headLineList.get(position).getImage()).into(holder.imageView);
+        holder.title.setText(newsList.get(position).getTitle());
+        holder.description.setText(newsList.get(position).getDescription());
+        holder.source.setText(newsList.get(position).getUrl());
+        Glide.with(context).load(newsList.get(position).getImage()).into(holder.imageView);
 
 
-        String t = headLineList.get(position).getTitle();
-        String d = headLineList.get(position).getDescription();
-        String s = headLineList.get(position).getSource();
-        String image = headLineList.get(position).getImage();
+        String t = newsList.get(position).getTitle();
+        String d = newsList.get(position).getDescription();
+        String s = newsList.get(position).getUrl();
+        String image = newsList.get(position).getImage();
+        String dt = newsList.get(position).getPublishedAt();
 
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, NewsPostDetails.class);
             intent.putExtra("title",t+"");
             intent.putExtra("desc",d+"");
+            intent.putExtra("date",dt+"");
             try {
                 intent.putExtra("source",s+"");
             }catch (Exception e){e.printStackTrace();}
@@ -55,19 +59,17 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
                 intent.putExtra("image","");
             else
                 intent.putExtra("image",image+"");
+
             context.startActivity(intent);
         });
     }
 
     @Override
-    public int getItemCount() {
-        return headLineList.size();
-    }
+    public int getItemCount() { return newsList.size(); }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder{
         private TextView title,description,source;
         private ImageView imageView;
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.newsTitleDetail);

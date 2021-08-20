@@ -16,4 +16,5 @@
     <string name="news_title">Title</string>
     <string name="news_description">Description</string>
     <string name="news_source">Source</string>
+    <string name="news_date">Date</string>
 </resources>

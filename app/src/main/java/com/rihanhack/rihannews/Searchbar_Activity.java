@@ -1,9 +1,7 @@
 package com.rihanhack.rihannews;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.widget.SearchView;
 
 public class Searchbar_Activity extends AppCompatActivity {
 
