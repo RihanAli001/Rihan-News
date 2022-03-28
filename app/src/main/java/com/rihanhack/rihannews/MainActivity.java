@@ -9,13 +9,11 @@ import androidx.navigation.ui.NavigationUI;
 import com.rihanhack.rihannews.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
     private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -23,6 +21,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this,Searchbar_Activity.class);
             startActivity(intent);
         });
+
+        binding.notificationIcon.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, Notification_Activity.class);
+            startActivity(intent);
+        });
+
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }

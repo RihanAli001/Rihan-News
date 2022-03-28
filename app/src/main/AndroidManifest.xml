@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RihanNews">
         <activity
+            android:name=".Search_News_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Notification_Activity"
+            android:exported="true" />
+        <activity
             android:name=".Searchbar_Activity"
             android:exported="true" />
         <activity
